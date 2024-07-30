@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Kalnia+Glaze:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Kalnia+Glaze:wght@700&family=Playwrite+DK+Loopet:wght@100..400&display=swap');
+
+.home{
+    width: 480px;
+    margin-left: 20px;
+    margin-top: 50px;
+    padding-top: 10px;
+    border: 3px solid black;
+    text-align: center;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-weight: 700;
+    color : black;
+    background-image: linear-gradient(#f1868625, rgb(207, 164, 236));
+}
+
+.home-contents{
+    margin-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap : 20px
+}
+
+#nw-mntr-btn{
+    font-weight: 700;
+    border-radius: 5px;
+    background-image: linear-gradient(#e7e7f4, #9fca9e);
+    margin-bottom: 5px;
+}
+
+#nw-stud-btn{
+    font-weight: 700;
+    border-radius: 5px;
+    background-image: linear-gradient(#ccef8d, #ca9e9e);
+    margin-bottom: 5px;
+}
+
+.new-mentor-box{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    width:400px;
+    margin-left: 10px;
+    margin-top: 50px;
+    padding-top: 10px;
+    border: 3px solid black;
+    text-align: center;
+    font-weight: 700;
+    color : darkred;
+    background-image: linear-gradient(#e7e7f4, #9fca9e);
+}
+
+.new-stud-box{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    width:400px;
+    margin-left: 20px;
+    margin-top: 50px;
+    padding-top: 10px;
+    border: 3px solid black;
+    text-align: center;
+    font-weight: 700;
+    color : darkred;
+    background-image: linear-gradient(#ccef8d, #ca9e9e);
+}
+
+.form-div{
+    margin: 5px;
+}
+
+.form-inputs{
+     padding : 10px
+}
+
+#form-btn{
+    margin-bottom : 15px
+}
