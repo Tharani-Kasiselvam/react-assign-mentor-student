@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 // define the base url for the API
-const baseURL = 'http://localhost:8001';
+const baseURL = 'https://node-assign-mentor-vqus.onrender.com';
 
     // create an axios instance
     const instance = axios.create({
