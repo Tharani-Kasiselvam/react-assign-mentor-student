@@ -31,11 +31,8 @@ const CreateMentor = () => {
             },
             validate,
             onSubmit : values => {
-                console.log(values.mentor_id)
                 const mentor_id = values.mentor_id
                 const mentor_name = values.mentor_name
-    
-                console.log("in Onsubmit of AXIOS service call")
     
                 //creates New Mentor
                 mentorStudService.createMentor(mentor_id, mentor_name)
@@ -44,7 +41,7 @@ const CreateMentor = () => {
                     mentorFormik.resetForm()
                 })
                 .catch(error =>{
-                    console.log(error.response.data.message)
+                    toast.error(error.response.data.message)
                 })
             }
         })

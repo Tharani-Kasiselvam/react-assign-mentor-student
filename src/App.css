@@ -35,6 +35,36 @@
     margin-bottom: 5px;
 }
 
+#updt-stud-btn{
+    font-weight: 700;
+    border-radius: 5px;
+    background-image: linear-gradient(#f47d99, #edeb6d);
+    margin-bottom: 5px;
+}
+
+#updt-mntr-btn{
+    font-weight: 700;
+    border-radius: 5px;
+    background-image: linear-gradient(#33522d34, #eb6ac4);
+    margin-bottom: 5px;
+}
+
+#studList_btn{
+    font-weight: 700;
+    border-radius: 5px;
+    background-image: linear-gradient(#2d176b, #e03f3f);
+    margin-bottom: 5px;
+    color : white
+}
+
+#prevMntr_btn{
+    font-weight: 700;
+    border-radius: 5px;
+    background-image: linear-gradient(#1a9098, #755535);
+    margin-bottom: 5px;
+    color : white
+}
+
 .new-mentor-box{
     font-family: "Edu AU VIC WA NT Hand", cursive;
     width:400px;
@@ -61,6 +91,32 @@
     background-image: linear-gradient(#ccef8d, #ca9e9e);
 }
 
+.updt-stud-box{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    width:400px;
+    margin-left: 20px;
+    margin-top: 50px;
+    padding-top: 10px;
+    border: 3px solid black;
+    text-align: center;
+    font-weight: 700;
+    color : darkred;
+    background-image: linear-gradient(#f47d99, #edeb6d);
+}
+
+.updt-mntr-box{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    width:400px;
+    margin-left: 20px;
+    margin-top: 50px;
+    padding-top: 10px;
+    border: 3px solid black;
+    text-align: center;
+    font-weight: 700;
+    color : darkred;
+    background-image: linear-gradient(#33522d34, #eb6ac4);
+}
+
 .form-div{
     margin: 5px;
 }
@@ -71,4 +127,11 @@
 
 #form-btn{
     margin-bottom : 15px
+}
+
+#cmn-txt{
+    width : 150px;
+    margin-right : 20px;
+    font-size: 10px;
+    align-items: left;
 }
